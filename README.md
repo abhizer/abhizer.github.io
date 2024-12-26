@@ -2,7 +2,7 @@ I am currently working as a Compiler Engineer at [Feldera](https://feldera.com) 
 
 ## Publications
 
-*Mihai Budiu, Leonid Ryzhyk, Gerd Zellweger, Ben Pfaff, Lalith Suresh, Simon Kassing, **Abhinav Gyawali**, MateiBudiu,
+*Mihai Budiu, Leonid Ryzhyk, Gerd Zellweger, Ben Pfaff, Lalith Suresh, Simon Kassing, **Abhinav Gyawali**, Matei Budiu,
 Tej Chajed, Frank McSherry, Val Tannen,* **“DBSP : Automatic Incremental View Maintenance for Rich Query Language,”** submitted to **The VLDB Journal**.
   
 > In this paper, we redefine Incremental View Maintenance and propose a solution using DBSP. DBSP is a simple but expres- sive language for describing computations over data streams. We give an algorithm for converting a DBSP program into an incremental program. Finally we demonstrate how to build upon DBSP to support rich query languages like SQL. A practical implementation of this lies in: <https://github.com/feldera/feldera/tree/main/sql-to-dbsp-compiler>.
