@@ -1,0 +1,18 @@
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+# 1. Site settings
+title: "Abhinav Gyawali"
+author: "Abhinav Gyawali"
+email: "abhizer@protonmail.com"
+google_analytics: "G-XX1QFCH39M"
+
+# 2. Collection
+collections:
+  posts:
+    output: true
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  LinkedIn: https://www.linkedin.com/in/abhizer
+  GitHub: https://github.com/abhizer
