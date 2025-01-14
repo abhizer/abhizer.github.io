@@ -23,5 +23,8 @@ SocketDB is a lightweight SQL database that enables real-time updates through We
 ### [Nyx-lang (2023)](https://github.com/abhizer/nyx-lang)
 Nyx-lang is a statically typed, tree-walking interpreted language with a type-checking mechanism to ensure safety and correctness. Working on this project deepened my understanding of compiler design and type systems, while encouraging me to approach language implementation from a structured and reliable perspective.  
 
+### [Loogle-rs (2023)](https://github.com/abhizer/loogle-rs)
+Loogle is a "Local Google" like search engine based on Term Frequency - Inverse Document Frequency (TF-IDF). Users can search for text in their search space and Loogle returns a sorted list of the files based on the page rank.
+
 ### [Monkey-rs (2022)](https://github.com/abhizer/monkey-rs)
 Monkey-rs is my take on the concepts from the [Writing an Interpreter in Go](https://interpreterbook.com/) book. This project was a pivotal learning experience, helping me become more comfortable with Rust and introducing me to the challenges and rewards of interpreter development. It marked an important step in my growth as a developer.  
