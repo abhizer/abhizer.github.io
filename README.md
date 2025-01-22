@@ -17,6 +17,12 @@ Tej Chajed, Frank McSherry, Val Tannen,* **“DBSP : Automatic Incremental View 
 
 ## Projects
 
+### [DBSP (Present)](https://github.com/feldera/feldera/tree/main/crates/dbsp)
+DBSP is a computational engine for continuous analysis of changing data. With DBSP, a programmer writes code in terms of
+computations on a complete data set, but DBSP implements it incrementally, meaning that changes to the data set run in
+time proportional to the size of the change rather than the size of the data set. This is a major advantage for applications that
+work with large data sets that change frequently in small ways.
+
 ### [SocketDB (2024)](https://github.com/abhizer/socketdb)
 SocketDB is a lightweight SQL database that enables real-time updates through WebSockets. Clients can subscribe to query results and receive updates whenever the underlying data changes. This project allowed me to explore the intersection of database design and real-time communication, providing valuable insights into building efficient and responsive systems.  
 
