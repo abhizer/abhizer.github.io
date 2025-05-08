@@ -5,7 +5,8 @@ As a prospective PhD student, my research interests span **programming languages
 ## Publications
 
 *Mihai Budiu, Leonid Ryzhyk, Gerd Zellweger, Ben Pfaff, Lalith Suresh, Simon Kassing, **Abhinav Gyawali**, Matei Budiu,
-Tej Chajed, Frank McSherry, Val Tannen,* **“DBSP : Automatic Incremental View Maintenance for Rich Query Language,”** accepted for publication in **The VLDB Journal**, 2024.
+Tej Chajed, Frank McSherry, Val Tannen,* **“[DBSP : Automatic Incremental View Maintenance for Rich Query Language](docs/papers/dbsp-vldb25.pdf),”**  published in
+**The International Journal on Very Large Data Bases (VLDB)**, Vol. 34, no 39, **2025**, 25 pages.
   
 > In this paper, we redefine Incremental View Maintenance and propose a solution using DBSP. DBSP is a simple but expressive language for describing computations over data streams. We give an algorithm for converting a DBSP program into an incremental program. Finally we demonstrate how to build upon DBSP to support rich query languages like SQL. A practical implementation of this lies in: <https://github.com/feldera/feldera/tree/main/sql-to-dbsp-compiler>.
 
