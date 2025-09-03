@@ -1,3 +1,12 @@
+---
+title: Windows Privilege Escalation: DNSAdmins to Domain Admins - Server Level DLL Injection
+layout: post
+author: Abhinav Gyawali
+date: 2019-12-21
+tags: privesc, windows, dnsadmin
+
+---
+
 # Windows Privilege Escalation: DNSAdmins to Domain Admins - Server Level DLL Injection
 
 Say you have compromised a Windows machine that provides Active Directory Directory Services to its users and have gained access as a user who is a part of the DNSAdmins group, you can use this method to privilege escalate.
