@@ -1,4 +1,4 @@
-I am currently working as a Compiler Engineer at [Feldera](https://feldera.com) and have recently completed my Bachelor of Science in Computer Science and Information Technology from Tribhuvan University, Nepal.
+I am currently working as an Engineer at [Feldera](https://feldera.com) and have recently completed my Bachelor of Science in Computer Science and Information Technology from Tribhuvan University, Nepal.
 
 As a prospective PhD student, my research interests span **programming languages, compilers,** and **databases**. My current work focuses on **Incremental View Maintenance** and the structured testing of database systems through query synthesis. In programming languages, I am particularly drawn to the design and implementation of languages like Rust, which I admire for its functional flavor and robust build system that significantly enhance developer productivity. Beyond these areas, I am also open to pursuing research opportunities in Operating Systems and Networking, as I find these fields offer compelling challenges and significant potential for impactful contributions.
 
