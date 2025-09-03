@@ -10,9 +10,9 @@ google_analytics: "G-XX1QFCH39M"
 logo: "assets/logos/logo.jpg"
 
 # 2. Collection
-collections:
-  posts:
-    output: true
+# collections:
+#   posts:
+#     output: true
 
 defaults:
   - scope:
