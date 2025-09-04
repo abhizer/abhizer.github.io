@@ -1,7 +1,5 @@
 ---
 title: "Windows Privilege Escalation: DNSAdmins to Domain Admins - Server Level DLL Injection"
-layout: post
-author: Abhinav Gyawali
 date: 2019-12-21
 tags: [privesc, windows, dnsadmin]
 permalink: /windows-privilege-escalation-dnsadmin-to-domaincontroller/
