@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox: Quick | Walkthrough"
 date: 2020-10-17
-tags: [HackTheBox, CTF, RCE, PrivEsc, Linux, HTTP3, SQL, ESI, Web]
+tags: [privesc, linux, http3, quic]
 categories: [hackthebox]
 ---
 

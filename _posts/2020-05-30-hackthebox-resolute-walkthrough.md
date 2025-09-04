@@ -2,7 +2,7 @@
 title: "HackTheBox: Resolute | Walkthrough"
 date: 2020-05-30
 categories: [hackthebox]
-tags: [windows, smb, evil-winrm, dnsadmin, hackthebox]
+tags: [windows, smb, dnsadmin, hackthebox]
 ---
 
 ## Recon
