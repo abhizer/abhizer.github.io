@@ -1,6 +1,4 @@
-I am currently working as an Engineer at [Feldera](https://feldera.com) and have recently completed my Bachelor of Science in Computer Science and Information Technology from Tribhuvan University, Nepal.
-
-As a prospective PhD student, my research interests span **programming languages, compilers,** and **databases**. My current work focuses on **Incremental View Maintenance** and the structured testing of database systems through query synthesis. In programming languages, I am particularly drawn to the design and implementation of languages like Rust, which I admire for its functional flavor and robust build system that significantly enhance developer productivity. Beyond these areas, I am also open to pursuing research opportunities in Operating Systems and Networking, as I find these fields offer compelling challenges and significant potential for impactful contributions.
+I am currently working as an Engineer at [Feldera](https://feldera.com). I will be starting a PhD at the **University of Texas at Austin** this fall, advised by professors **Dixin Tang** and **Vijay Chidambaram**, where I will focus on databases and data systems.
 
 ## Publications
 
@@ -8,12 +6,8 @@ As a prospective PhD student, my research interests span **programming languages
 Tej Chajed, Frank McSherry, Val Tannen,* **“[DBSP : Automatic Incremental View Maintenance for Rich Query Language](https://rdcu.be/elhs5),”**  published in
 **The International Journal on Very Large Data Bases (VLDB)**, Vol. 34, no 39, **2025**, 25 pages.
   
-> In this paper, we redefine Incremental View Maintenance and propose a solution using DBSP. DBSP is a simple but expressive language for describing computations over data streams. We give an algorithm for converting a DBSP program into an incremental program. Finally we demonstrate how to build upon DBSP to support rich query languages like SQL. A practical implementation of this lies in: <https://github.com/feldera/feldera/tree/main/sql-to-dbsp-compiler>.
-
 ***Abhinav Gyawali,*** **“SocketDB: DBMS with Data Streaming via WebSockets,”** published in
 **Deerwalk Journal of Computer Science and Information Technology**, 2024.
-
-> In this paper, I describe my final year project, SocketDB, a lightweight SQL database that allows clients to subscribe to real-time updates through WebSockets. This paper argues that, in certain cases, this approach would reduce the load on the application server from constant requerying of the data by the client.
 
 
 ## Projects
