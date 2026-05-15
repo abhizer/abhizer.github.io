@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: /
+---
+
 I am currently working as an Engineer at [Feldera](https://feldera.com). I will be starting a PhD at the **University of Texas at Austin** this fall, advised by professors **Dixin Tang** and **Vijay Chidambaram**, where I will focus on databases and data systems.
 
 ## Publications
@@ -6,9 +11,6 @@ I am currently working as an Engineer at [Feldera](https://feldera.com). I will 
 Tej Chajed, Frank McSherry, Val Tannen,* **“[DBSP : Automatic Incremental View Maintenance for Rich Query Language](https://rdcu.be/elhs5),”**  published in
 **The International Journal on Very Large Data Bases (VLDB)**, Vol. 34, no 39, **2025**, 25 pages.
   
-***Abhinav Gyawali,*** **“SocketDB: DBMS with Data Streaming via WebSockets,”** published in
-**Deerwalk Journal of Computer Science and Information Technology**, 2024.
-
 
 ## Projects
 
