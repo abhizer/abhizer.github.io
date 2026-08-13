@@ -3,14 +3,17 @@ layout: default
 permalink: /
 ---
 
-I am currently working as an Engineer at [Feldera](https://feldera.com). I will be starting a PhD at the **University of Texas at Austin** this fall, advised by professors **Dixin Tang** and **Vijay Chidambaram**, where I will focus on databases and data systems.
+I am a first year PhD student at the **University of Texas at Austin**, co-advised by [**Professor Dixin Tang**](https://dx-tang.github.io/)
+and [**Professor Vijay Chidambaram**](https://www.cs.utexas.edu/~vijay/).
+I am broadly interested in databases and data systems.
+
+Previously, I was an engineer at [Feldera](https://feldera.com) working on incremental computation.
 
 ## Publications
 
 *Mihai Budiu, Leonid Ryzhyk, Gerd Zellweger, Ben Pfaff, Lalith Suresh, Simon Kassing, **Abhinav Gyawali**, Matei Budiu,
 Tej Chajed, Frank McSherry, Val Tannen,* **“[DBSP : Automatic Incremental View Maintenance for Rich Query Language](https://rdcu.be/elhs5),”**  published in
 **The International Journal on Very Large Data Bases (VLDB)**, Vol. 34, no 39, **2025**, 25 pages.
-  
 
 ## Projects
 
